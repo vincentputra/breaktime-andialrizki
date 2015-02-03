@@ -1,0 +1,210 @@
+/* ADVERTISE CSS */
+
+
+#advertise {
+	color: #464646;
+}
+#advertise .title h3 {
+	text-align: center;
+	color: #1eacea;
+	padding-top: 26px;
+	text-transform:uppercase;
+}
+#advertise .title-adv h3 {
+	text-align: center;
+	color: #1eacea;
+	text-transform:uppercase;
+}
+#advertise .title-rules h3 {
+	text-align: left;
+	color: #1eacea;
+	text-transform:uppercase;
+	margin-left: -18px;
+}
+#advertise .connect-title h3 {
+	text-transform:uppercase;
+	text-align: center;
+	color: #1eacea;
+	padding-top: 0px;
+	padding-bottom: 12px;
+}
+#advertise .cover {
+	position: relative;
+  	width: 100%;
+  	height: 200px;
+  	overflow: hidden;
+}
+#advertise .cover img {
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+}
+#advertise .intro {
+	max-width: 800px;
+	margin:0 auto;
+	text-align: justify;
+}
+#advertise .precontent {
+	background-color: #ececec;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #474747;
+	padding: 30px;
+}
+#advertise .content {
+	width: 800px;
+	text-align: justify;
+	margin: 0 auto;
+}
+#advertise .content .step {
+	font-size: 22px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+	border: 1px solid #474747;
+	-moz-border-radius: 45px;
+	border-radius: 45px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 20px;
+
+}
+
+#advertise .rules {
+
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 30px;
+}
+#advertise .rules .rules-item {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+#advertise .rules .rules-item .numrules {
+	font-size: 22px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+	border: 1px solid #1eacea;
+	color: #1eacea;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	margin: 0 auto;
+
+}
+
+#advertise .connected {
+	margin-bottom: 60px;
+}
+.address {
+	display: inline;
+}
+.address .border {
+	border: 1px solid #eee;
+}
+.item {
+	text-align: left;
+	width: 385px;
+	padding: 15px;
+}
+.item p {
+
+	font-size: 12px;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.item h6 {
+	text-transform: uppercase;
+	color: #cdcdcd;
+}
+.row-align {
+	margin-left: 10px;
+}
+
+a.button-rules {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#464646;
+	padding:6px 16px;
+	border:2px solid #464646;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	font-family:'edmondsans-sq';
+	font-size:19px
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+	#advertise .content {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	#advertise .cover {
+		position: relative;
+  		width: 100%;
+  		height: 200px;
+  		overflow: hidden;
+	}
+	#advertise .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	#advertise .content {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#advertise .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+	#advertise .content {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.row-align {
+		margin-left: -15px;
+	}
+	.item {
+		width: 340px;
+	}
+	#advertise .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+
+}
+
