@@ -42,9 +42,10 @@
 	color: #fff;
 }
 .image-cover h2 {
-	font-size: 40px;
+	font-size: 48px;
 	font-style: italic;
-	padding-top: 70px;
+	font-family: 'EdmondsansRegularBold';
+	padding-top: 60px;
 }
 .image-cover .slogan {
 	padding-top: 25px;
@@ -78,9 +79,6 @@
 .item h6 {
 	text-transform: uppercase;
 	color: #cdcdcd;
-}
-.row-align {
-	margin-left: 10px;
 }
 a.social:hover {
 	opacity: 0.5;
@@ -149,6 +147,7 @@ a.button-instagram {
 }
 @media screen and (max-width: 480px) and (min-width: 320px){
 	.image-cover h2 {
+		font-size: 42px;
 		padding-top: 20px;
 	}
 	.image-cover .slogan {
