@@ -53,7 +53,7 @@
 	padding: 30px;
 }
 #advertise .content {
-	width: 800px;
+	max-width: 800px;
 	text-align: justify;
 	margin: 0 auto;
 }
@@ -103,32 +103,15 @@
 #advertise .connected {
 	margin-bottom: 60px;
 }
-.address {
-	display: inline;
+#step-content, #rules-content {
+	display: block;
 }
-.address .border {
-	border: 1px solid #eee;
-}
-.item {
-	text-align: left;
-	width: 385px;
-	padding: 15px;
-}
-.item p {
-
-	font-size: 12px;
-	font-weight: bold;
-	word-wrap: break-word;
-}
-.item h6 {
-	text-transform: uppercase;
-	color: #cdcdcd;
-}
-.row-align {
-	margin-left: 10px;
+#view-step, #view-rules {
+	display: none;
 }
 
-a.button-rules {
+
+a.button-rules, button.button-rules {
 	text-decoration:none;
 	text-transform:uppercase;
 	color:#464646;
@@ -140,12 +123,23 @@ a.button-rules {
 	font-family:'edmondsans-sq';
 	font-size:19px
 }
-
-@media screen and (max-width: 1024px) and (min-width: 768px){
-	#advertise .content {
-		padding-left: 60px;
-		padding-right: 60px;
+@media only screen and (max-width: 1440px) and (min-width:1366px) {
+	#step-content, #rules-content {
+		display: block;
 	}
+}
+@media only screen and (max-width: 1366px) and (min-width:1280px) {
+	#step-content, #rules-content {
+		display: block;
+	}
+}
+@media only screen and (max-width: 1280px) and (min-width:1024px) {
+	#step-content, #rules-content {
+		display: block;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+	
 	#advertise .cover {
 		position: relative;
   		width: 100%;
@@ -166,10 +160,7 @@ a.button-rules {
 }
 
 @media screen and (max-width: 768px) and (min-width: 480px){
-	#advertise .content {
-		padding-left: 50px;
-		padding-right: 50px;
-	}
+	
 	#advertise .cover img {
     	position: absolute;
 		left: 50%;
@@ -179,20 +170,44 @@ a.button-rules {
 		  -webkit-transform: translate(-50%,-50%);
 		      -ms-transform: translate(-50%,-50%);
 		          transform: translate(-50%,-50%);
+
+	}
+	#step-content {
+		display: none;
+	}
+	#rules-content {
+		display: none;
+	}
+	#view-step, #view-rules {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#advertise .rules .rules-item .numrules {
+		font-size: 18px;
+		width: 35px;
+		height: 35px;
+		padding-top: 5px;
+		margin-left: -16px;
 
 	}
 }
 @media screen and (max-width: 480px) and (min-width: 320px){
-	#advertise .content {
-		padding-left: 40px;
-		padding-right: 40px;
-	}
+	
 
-	.row-align {
-		margin-left: -15px;
+	#advertise .intro {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
-	.item {
-		width: 340px;
+	#step-content {
+		display: none;
+	}
+	#rules-content {
+		display: none;
+	}
+	#view-step, #view-rules {
+		display: block;
+		margin: 0 auto;
 	}
 	#advertise .cover img {
     	position: absolute;
@@ -204,6 +219,17 @@ a.button-rules {
 		      -ms-transform: translate(-50%,-50%);
 		          transform: translate(-50%,-50%);
 
+	}
+	#advertise .rules .rules-item .numrules {
+		font-size: 18px;
+		width: 35px;
+		height: 35px;
+		padding-top: 5px;
+		margin-left: -16px;
+
+	}
+	#advertise .rules .rules-item {
+		margin-right: -45px;
 	}
 
 }
