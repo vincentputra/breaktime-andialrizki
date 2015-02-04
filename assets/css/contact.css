@@ -32,6 +32,23 @@
 	width: 100%;
 	height: 200px;
 }
+.image-cover {
+	min-width:100%;
+	min-height: 300px;
+	background-size: cover;
+	position: relative;
+	background: url(../images/cover.jpg) no-repeat center center;
+	text-align: center;
+	color: #fff;
+}
+.image-cover h2 {
+	font-size: 40px;
+	font-style: italic;
+	padding-top: 70px;
+}
+.image-cover .slogan {
+	padding-top: 25px;
+}
 #contact .content, #contact .connected {
 	max-width: 800px;
 	margin:0 auto;
@@ -130,6 +147,14 @@ a.button-instagram {
 	}
 }
 @media screen and (max-width: 480px) and (min-width: 320px){
+	.image-cover h2 {
+		padding-top: 20px;
+	}
+	.image-cover .slogan {
+		width: 200px;
+		padding-top: 35px;
+		margin: 0 auto;
+	}
 	#contact .content {
 		padding-left: 40px;
 		padding-right: 40px;
