@@ -40,7 +40,9 @@
 }
 .image-cover .slogan {
 	padding-top: 25px;
+
 }
+
 #term .content {
 	max-width: 800px;
 	text-align: justify;
@@ -145,9 +147,9 @@ ol > p:before {
 		margin: 0 auto;
 	}
 	#term .number {
-		font-size: 20px;
-		width: 30px;
-		height: 30px;
+		font-size: 16px;
+		width: 26px;
+		height: 26px;
 		padding-top: 1px;
 		margin-top: 10px;
 	}
