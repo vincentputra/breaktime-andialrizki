@@ -125,21 +125,31 @@ a.button-rules, button.button-rules {
 }
 @media only screen and (max-width: 1440px) and (min-width:1366px) {
 	#step-content, #rules-content {
-		display: block;
+		display: block!important;
 	}
 }
 @media only screen and (max-width: 1366px) and (min-width:1280px) {
 	#step-content, #rules-content {
-		display: block;
+		display: block!important;
 	}
 }
 @media only screen and (max-width: 1280px) and (min-width:1024px) {
 	#step-content, #rules-content {
-		display: block;
+		display: block!important;
 	}
 }
 @media screen and (max-width: 1024px) and (min-width: 768px){
-	
+	#step-content {
+		display: none;
+	}
+	#rules-content {
+		display: none;
+	}
+	#view-step, #view-rules {
+		display: block;
+		margin: 0 auto;
+	}
+
 	#advertise .cover {
 		position: relative;
   		width: 100%;
