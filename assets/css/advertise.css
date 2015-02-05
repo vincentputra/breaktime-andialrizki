@@ -84,6 +84,8 @@
 	padding-top: 5px;
 	border: 1px solid #474747;
 	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	-o-border-radius: 45px;
 	border-radius: 45px;
 	margin: 0 auto;
 	margin-bottom: 30px;
