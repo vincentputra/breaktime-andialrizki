@@ -1,0 +1,128 @@
+/* PRIVACY CSS */
+
+#privacy {
+
+}
+
+#privacy .content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#privacy .content h3 {
+	color: #1eacea;
+	text-align: left;
+	text-transform:uppercase;
+}
+#privacy .content p {
+	text-align: left;
+}
+
+#privacy .content p.legal {
+	color: red;
+}
+#privacy .content .item {
+	padding-top: 10px;
+}
+#privacy .content .item:last-child {
+	padding-bottom: 50px;
+}
+#privacy .cover {
+	position: relative;
+  	width: 100%;
+  	height: 200px;
+  	overflow: hidden;
+}
+#privacy .cover img {
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+}
+.image-cover {
+	min-width:100%;
+	min-height: 300px;
+	background-size: cover;
+	position: relative;
+	background: url(../images/cover.jpg) no-repeat center center;
+	text-align: center;
+	color: #fff;
+}
+.image-cover h2 {
+	font-size: 48px;
+	font-style: italic;
+	font-family: 'EdmondsansRegularBold';
+	padding-top: 60px;
+}
+.image-cover .slogan {
+	padding-top: 25px;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+	#privacy .content {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	#privacy .cover {
+		position: relative;
+  		width: 100%;
+  		height: 200px;
+  		overflow: hidden;
+	}
+	#privacy .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	#privacy .content {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#privacy .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+	.image-cover h2 {
+		font-size: 42px;
+		padding-top: 20px;
+	}
+	.image-cover .slogan {
+		width: 200px;
+		padding-top: 35px;
+		margin: 0 auto;
+	}
+	
+	#privacy .content {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	#privacy .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}

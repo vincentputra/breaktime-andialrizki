@@ -1,0 +1,158 @@
+/* ABOUT CSS */
+
+
+#about {
+	color: #464646;
+}
+#about .title {
+	text-align: center;
+	text-transform:uppercase;
+}
+#about .title h3 {
+	text-align: center;
+	color: #1eacea;
+	padding-top: 26px;
+}
+.image-cover {
+	min-width:100%;
+	min-height: 300px;
+	background-size: cover;
+	position: relative;
+	background: url(../images/cover.jpg) no-repeat center center;
+	text-align: center;
+	color: #fff;
+}
+.image-cover h2 {
+	font-size: 48px;
+	font-style: italic;
+	font-family: 'EdmondsansRegularBold';
+	padding-top: 60px;}
+.image-cover .slogan {
+	padding-top: 25px;
+}
+.image-cover p {
+}
+#about .cover {
+	position: relative;
+  	width: 100%;
+  	height: 200px;
+  	overflow: hidden;
+}
+#about .cover img {
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+}
+#about .content {
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 20px;
+	text-align: justify;
+	margin: 0 auto;
+}
+a.button-about {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#464646;
+	padding:6px 16px;
+	border:2px solid #464646;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	font-family:'edmondsans-sq';
+	font-size:19px
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 1336px){
+	#about .content {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1280px){
+	#about .content {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px){
+	#about .content {
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+	#about .content {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	#about .cover {
+		position: relative;
+  		width: 100%;
+  		height: 200px;
+  		overflow: hidden;
+	}
+	#about .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	#about .content {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#about .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+	.image-cover h2 {
+		font-size: 42px;
+		padding-top: 20px;
+	}
+	.image-cover .slogan {
+		width: 200px;
+		padding-top: 35px;
+		margin: 0 auto;
+	}
+	#about .content {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#about .cover img {
+    	position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		      -ms-transform: translate(-50%,-50%);
+		          transform: translate(-50%,-50%);
+
+	}
+}
+
